@@ -1,7 +1,7 @@
 Webdesign
 =========
 
-Projetos produzido apenas com HTML - CSS/SASS.
+Coleção de projetos com foque no HTML/CSS/SCSS.
 
 Siglas
 ======

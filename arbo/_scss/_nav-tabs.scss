@@ -1,0 +1,39 @@
+.nav-tab-box {
+	.nav-tabs {
+		border-color: $arbo_amarelo;
+
+		li {
+			a {
+				color: $letra-geral;
+				margin-right: 0;
+			}
+
+			a:hover,a:focus {
+				color: $branco-original;
+				background-color: $arbo_amarelo_dark;
+				outline: 0;
+			}
+		}
+
+		li.active {
+			a {
+				border-color: $arbo_amarelo $arbo_amarelo transparent;
+			}
+
+			a:hover,a:focus {
+				border-color: $arbo_amarelo_dark;
+				outline: 0;
+			}
+		}
+	}
+
+	.tab-content {
+		border-left: 1px solid $arbo_amarelo;
+		border-right: 1px solid $arbo_amarelo;
+		border-bottom: 1px solid $arbo_amarelo;
+
+		.tab-pane {
+			padding: 10px 15px;
+		}
+	}
+}

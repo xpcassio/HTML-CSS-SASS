@@ -1,0 +1,55 @@
+.servico-btn {
+	background-color: $arbo_amarelo;
+	border: 1px solid $arbo_amarelo;
+	color: $branco-original;
+	margin-bottom: 15px;
+
+	.circle {
+		background-color: $branco-original;
+		border-radius: 100%;
+		padding: 15px;
+		display: inline-block;
+		float: left;
+		margin-right: 10px;
+
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
+
+	.texto {
+		font-family: "Montserrat",sans-serif;
+		font-size: 16px;
+		position: relative;
+    	top: 23px;
+	}
+}
+
+.servico-btn:hover,.servico-btn:focus {
+	background-color: $arbo_amarelo_dark;
+	border-color: $arbo_amarelo_dark;
+	color: $branco-original;
+}
+
+.servico-btn.active {
+	background-color: $arbo_amarelo_dark;
+	border-color: $arbo_amarelo_dark;
+	color: $branco-original;
+}
+
+.servico-btn.active:hover,.servico-btn.active:focus {
+	background-color: $arbo_amarelo_dark;
+	border-color: $arbo_amarelo_dark;
+	color: $branco-original;
+}
+
+/* SERVICO 1 
+   ============================================= */
+.margin-servico {
+	margin-bottom: 25px;
+}
+
+/* RESPONSIVIDADE 
+   ============================================= */
+@import 'servicos-desktop';

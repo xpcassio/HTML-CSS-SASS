@@ -1,0 +1,60 @@
+.footer {
+    background-color: $arbo_marrom;
+    bottom: 0;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    color: $branco-original;
+    border-top: 2px solid $arbo_marrom_light;
+
+    .div_arrow {
+    	text-align: center;
+    	margin-top: 10px;
+    	
+    	a {
+    		font-size: 46px;
+    		color: $branco-original;
+    	}
+    }
+
+    .text-company {
+		text-align: center;
+
+		p {
+			margin-top: 10px;
+			margin-bottom: 5px;
+		}
+	}
+
+	.text-developer {
+		text-align: center;
+
+		p {
+			margin-top: 5px;
+			margin-bottom: 5px;
+
+			a {
+				text-decoration: none;
+				color: $arbo_laranja_dark;
+			}
+
+			a:hover,a:focus {
+				color: darken($arbo_laranja_dark, 5%);
+			}
+
+			a:before {
+				content: '<';
+				margin-right: 3px;
+			}
+
+			a:after {
+				content: '>';
+				margin-left: 3px;
+			}
+		}
+	}
+}
+
+/* RESPONSIVIDADE 
+   ============================================= */
+@import 'footer-tablet';

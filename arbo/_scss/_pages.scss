@@ -1,0 +1,45 @@
+.background-pages {
+	height: 170px;
+}
+
+.section-pages {
+	margin-bottom: 45px;
+
+	h1, h2, h3, h4, h5, h6 {
+	    font-family: "Montserrat",sans-serif;
+	    font-weight: 700;
+	    text-transform: uppercase;
+
+	    margin-top: 0;
+	}
+
+	span {
+		background: $arbo_amarelo none repeat scroll 0 0;
+		display: block;
+		height: 2px;
+		margin: 15px auto;
+		width: 70px;
+	}
+}
+
+.well-tip {
+	background-color: $arbo_amarelo;
+	border-color: $arbo_laranja_light;
+
+	.media {
+		.media-left {
+			i {
+				font-size: 45px;
+				color: #d2940e;
+			}
+		}
+
+		.media-body {
+			color: $branco-original;
+			
+			h4 {
+				color: $branco-original;
+			}
+		}
+	}
+}
