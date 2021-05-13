@@ -1,0 +1,27 @@
+.footer {
+	background-color: $azul;
+	bottom: 0;
+	height: 160px;
+	position: absolute;
+	width: 100%;
+	color: #FFFFFF;
+	border-top: 2px solid lighter($azul, 20%);
+
+	p {
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		margin: 12px 0;
+	}
+
+	.div-abra {
+		text-align: center;
+
+		img {
+			margin: 10px 0;
+		}
+	}
+}
+
+/* RESPONSIVIDADE  ============================================= */
+@import 'footer-tablet';
+@import 'footer-desktop';

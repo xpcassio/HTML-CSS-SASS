@@ -1,6 +1,6 @@
 SO Nerds
 ========
-Site produzido para um freelance. O objetivo era produzir uma pagina inicial para descrição do serviço, login de dois nivéis (profissional de TI e usuário) e abertura/acompanhamento de tickets de suporte.
+Site produzido para um freelance. O objetivo era produzir uma página inicial para descrição do serviço, login de dois nivéis (profissional de TI e usuário) e abertura/acompanhamento de tickets de suporte.
 
 ## Tecnologias / frameworks
 ![Javascript badge](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)

@@ -1,0 +1,33 @@
+@media (min-width: 768px) {
+
+.top_header {
+	.email_link, .phone_link {
+		margin-right: 20px;
+	}
+
+	.social_link {
+		font-size: 25px;
+		top: 3px;
+	}
+}
+
+.jumbotron {
+	padding-bottom: 78px;
+    padding-top: 78px;
+
+    .container {
+        img {
+            width: 30%;
+        }
+    }
+}
+
+.faixa_azul_metaweb {
+	margin-bottom: 70px;
+
+	h3 {
+		margin: 0;
+	}
+}
+
+}

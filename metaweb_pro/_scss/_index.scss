@@ -1,0 +1,126 @@
+.top_header {
+	border-bottom: 1px solid #f1f1f1;
+    line-height: 50px;
+
+    .email_link {
+    	text-decoration: none;
+        color: $azul;
+
+    	i {
+    		font-size: 16px;
+    		position: relative;
+    		top: 1px;
+    	}
+    }
+
+    .phone_link {
+		text-decoration: none;
+        color: $azul;
+
+    	i {
+    		font-size: 16px;
+    		position: relative;
+    		top: 3px;
+    	}
+    }
+
+    .social_link {
+    	font-size: 35px;
+    	position: relative;
+    	top: 7px;
+        color: $azul;
+    }
+
+    .email_link:focus,.phone_link:focus,.social_link:focus,.email_link:hover,.phone_link:hover,.social_link:hover {
+        color: darken($azul, 10%);
+    }
+}
+
+.fluid_header {
+	background: #fff none repeat scroll 0 0;
+    box-shadow: none;
+    margin-bottom: 0;
+    border-top: 0;
+    min-height: 90px;
+    height: auto;
+
+    .navbar-brand {
+		img {
+			width: 65%;
+		}
+    }
+}
+
+.jumbotron {
+	background-image: url("../img/banner1.jpg");
+	background-size: cover;
+	color: $branco;
+	margin-bottom: 0;
+
+	.container {
+		position: relative;
+
+        img {
+            width: 180px;
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+        }
+	}
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay::before {
+    background-color: rgba(73, 75, 95, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.faixa_azul_metaweb {
+	background: $azul none repeat scroll 0 0;
+	color: $branco;
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+    margin-bottom: 60px;
+
+	h3 {
+        font-family: 'Roboto', sans-serif;
+		margin: 0 0 20px;
+	}
+}
+
+.media-metalweb {
+    margin-bottom: 30px;
+
+    .fa {
+        color: $azul;
+    }
+}
+
+.select-hr {
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+}
+
+#div_alertGeral {
+    display: none;
+
+    .alert {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+}
+
+/* RESPONSIVIDADE  ============================================= */
+@import 'index-tablet';
+@import 'index-desktop';

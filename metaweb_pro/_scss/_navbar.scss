@@ -1,0 +1,10 @@
+.navbar-header {
+	height: 95px;
+
+	.navbar-toggle {
+		margin-top: 30px;
+	}
+}
+
+/* RESPONSIVIDADE  ============================================= */
+@import 'navbar-tablet';

@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900,500);
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin-bottom: 220px;
+}
+
+@media (min-width: 768px) {
+	body {
+		margin-bottom: 140px;
+	}
+}
+
+.no-padding {
+	padding: 0;
+}
+
+/* GERAIS  ============================================= */
+@import 'color';
+
+/* EXTRAS  ============================================= */
+@import 'navbar';
+@import 'section';
+@import 'footer';
+
+/* PAGINAS  ============================================ */
+@import 'index';
