@@ -1,0 +1,22 @@
+.section-title {
+	margin-bottom: 50px;
+
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		color: $laranja;
+	    font-size: 20px;
+	    letter-spacing: 2px;
+	    text-transform: uppercase;
+	    font-weight: 900;
+	    margin-top: 0;
+	}
+
+	h2 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 30px;
+	    letter-spacing: 2px;
+	    margin-top: 0;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	}
+}

@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900,500);
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	margin-bottom: 140px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.container {
+	width: 970px !important;
+}
+
+/* GERAIS  ============================================= */
+@import 'color';
+
+/* EXTRAS  ============================================= */
+@import 'section';
+@import 'footer';
+
+/* PAGINAS  ============================================ */
+@import 'index';
+@import 'suporte';
+@import 'ticket';

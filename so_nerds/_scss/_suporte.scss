@@ -1,0 +1,42 @@
+.jumbotron-suporte {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.list-group-download {
+	.fa-file-o {
+		margin-right: 10px;
+	}
+
+	.link_action,.link_uploaded,.link_atencao {
+		display: none;
+		font-size: 16px;
+		margin-top: 3px;
+	}
+
+	.link_upload {
+		margin-top: 3px;
+		outline-style: none;
+	}
+}
+
+#div_alertGeral {
+	display: none;
+
+	.alert {
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+}
+
+select[name=problema_hardware] {
+	display: none;
+}
+
+select[name=problema_software] {
+	display: none;
+}
+
+.filelist_upload {
+	display: none;
+}
