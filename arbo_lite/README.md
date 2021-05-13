@@ -1,0 +1,27 @@
+SO Nerds
+========
+Site produzido para um freelance. O objetivo era produzir uma pagina inicial, simples e objetiva, para uma empresa de consultoria de energia solar.
+
+## Tecnologias / frameworks
+![Javascript badge](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3 badge](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap badge](https://img.shields.io/badge/Bootstrap-v3.3.5-563D7C?style=for-the-badge&logo=bootstrap)
+![Jquery badge](https://img.shields.io/badge/Jquery-v2.2.4-0769AD?style=for-the-badge&logo=jquery)
+![SASS badge](https://img.shields.io/badge/sass--CC6699?style=for-the-badge&logo=sass)
+
+## Dependências
+https://www.npmjs.com/package/http-server
+
+## Comandos
+Instala as dependências para rodar o projeto.
+```
+npm init
+```
+
+Iniciar o servidor HTTP.
+```
+npx http-server -p 8080
+```
+
+## Observações
++ Projeto completo se encontra em _files/arbo_lite.7z

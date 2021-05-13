@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+
+.background {
+	height: 500px;
+
+	.div_links {
+		margin-top: 45px;
+
+		a {
+			i {
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+.carousel-index {
+	.item {
+		height: 330px;
+	}
+}
+
+}

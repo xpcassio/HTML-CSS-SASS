@@ -1,0 +1,44 @@
+.div_endereco {
+	margin-bottom: 25px;
+
+	address {
+		margin-bottom: 0;
+
+		strong {
+			color: $arbo_amarelo_dark;
+		}
+
+		a {
+			color: $letra-geral;
+			text-decoration: underline;
+		}
+
+		i {
+			width: 15px;
+			margin-right: 5px;
+			color: $arbo_amarelo_dark;
+		}
+	}
+}
+
+.div_mapa {
+	margin-bottom: 25px;
+
+	#map {
+		background-color: #e5e3df;
+		width: 100%;
+		height: 150px;
+	}
+}
+
+.div_form {
+	margin-bottom: 25px;
+}
+
+.div_alert {
+	display: none;
+}
+
+/* RESPONSIVIDADE 
+   ============================================= */
+@import 'contato-desktop';

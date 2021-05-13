@@ -1,0 +1,80 @@
+.navbar-default {
+	margin-top: 30px;
+	height: 80px;
+
+	background: none;
+	border: none;
+	z-index: 10;
+
+	.navbar-toggle {
+		margin-top: 20px;
+		border: none;
+
+		.icon-bar {
+			height: 3px;
+			background-color: $branco-original;
+		}
+	}
+
+	.navbar-toggle:hover,.navbar-toggle:focus {
+		background: none;
+
+		.icon-bar {
+			background-color: $arbo_letra;
+		}
+	}
+
+	.navbar-collapse {
+		border: 1px solid $cinza-bordar;
+
+		.navbar-nav {
+			margin-top: 0;
+			margin-bottom: 0;
+			z-index: 10;
+
+			li {
+				background-color: $branco-original;
+				font-size: 16px;
+				text-align: center;
+				border-bottom: 1px solid $cinza-bordar;
+				z-index: 10;
+
+				a {
+					color: $letra-geral;
+				}
+			}
+
+			li:last-child {
+				border-bottom: 0;
+			}
+
+			li:hover,li:focus {
+				background-color: $arbo_letra;
+
+				a {
+					color: $branco-original;
+				}
+			}
+		}
+	}
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: $arbo_letra !important;
+	color: $branco-original !important;
+}
+
+.navbar-brand {
+	height: auto;
+	width: auto;
+    padding: 5px 10px 10px 0;
+
+	img {
+		width: 200px;
+	}
+}
+
+/* RESPONSIVIDADE 
+   ============================================= */
+@import 'navbar-tablet';
+@import 'navbar-desktop';

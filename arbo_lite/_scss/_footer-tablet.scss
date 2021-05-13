@@ -1,0 +1,31 @@
+@media (min-width: 768px) {
+
+.footer {
+	height: 60px !important;
+
+	.div_arrow {
+		margin-top: 0;
+
+		a {
+			font-size: 40px;
+		}
+	}
+
+	.text-company {
+		text-align: left;
+		
+		p {
+			margin-top: 20px;
+		}
+	}
+
+	.text-developer {
+		text-align: right;
+
+		p {
+			margin-top: 20px;
+		}
+	}
+}
+
+}
