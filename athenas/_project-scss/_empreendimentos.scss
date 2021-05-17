@@ -1,0 +1,60 @@
+.card-emp {
+	width: 100%;
+	border: 1px solid $athenas_back;
+	margin-bottom: 30px;
+	cursor: pointer;
+	position: relative;
+
+	.imagem {
+		display: inline-block;
+		width: 100%;
+		min-height: 250px;
+
+		background-position: center center;
+		background-repeat:  no-repeat;
+		background-size:  cover;
+		background-color: #999;
+	}
+
+	.texto {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		padding: 20px 10px;
+	}
+
+	&:hover,&:focus {
+		.texto {
+			.btn {
+				background-color: $athenas_laranja;
+				color: $white;
+			}
+		}
+	}
+}
+
+.btn-status {
+	margin-bottom: 15px;
+}
+
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+@include media(">phone", ">=tablet") {
+	.card-emp {
+		.imagem {
+			width: 59%;
+			float: left;
+			min-height: 250px;
+		}
+
+		.texto {
+			width: 40%;
+			float: right;
+		}
+	}
+
+	.div_status {
+		margin-bottom: 30px;
+	}
+}

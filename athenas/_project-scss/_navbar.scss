@@ -1,0 +1,130 @@
+.navbar-inverse {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 0;
+	border: none;
+	height: 65px;
+
+	.navbar-header {
+		height: 65px;
+
+		.navbar-brand {
+			// padding: 10px 15px;
+
+			img {
+				width: 130px;
+			}
+		}
+
+		.link-social {
+			color: $gray;
+			float: right;
+			margin-top: 18px;
+			margin-right: 15px;
+			margin-bottom: 8px;
+
+			&:hover,&:focus {
+				color: $athenas_laranja;
+			}
+		}
+	}
+
+	.navbar-toggle {
+		border: none;
+		margin-top: 16px;
+
+		.icon-bar {
+			background-color: $gray;
+		}
+
+		&:hover,&:focus {
+			background-color: transparent;
+
+			.icon-bar {
+				background-color: $athenas_laranja;
+			}
+		}
+	}
+
+	.navbar-collapse {
+		border-color: lighten($athenas_back, 20%);
+		background-color: rgba(255, 255, 255, 0.9);
+
+		.navbar-nav {
+			li {
+				a {
+					color: $gray;
+					font-family: swis_lt_bt;
+				}
+
+				&:hover,&:focus {
+					a {
+						color: $athenas_laranja;
+					}
+				}
+			}
+
+			.active {
+				a {
+					background-color: transparent;
+					color: $athenas_laranja;
+				}
+			}
+		}
+	}
+}
+
+.navbar-emp {
+	background-color: $athenas_back;
+
+	.navbar-header {
+
+		.link-social {
+			color: $white;
+		}
+	}
+
+	.navbar-toggle {
+		.icon-bar {
+			background-color: $white;
+		}
+	}
+
+	.navbar-collapse {
+		background-color: $athenas_back;
+
+		.navbar-nav {
+			li {
+				a {
+					color: $white;
+				}
+			}
+		}
+	}
+}
+
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+@include media(">phone", ">=tablet") {
+	.navbar-inverse {
+		height: 95px;
+
+		.navbar-header {
+			.navbar-brand {
+				padding-top: 17px;
+
+				img {
+					width: 220px;
+				}
+			}
+		}
+
+		.navbar-collapse {
+			background-color: transparent;
+
+			ul {
+				margin-top: 22px;
+			}
+		}
+	}
+}

@@ -16,9 +16,9 @@ Site produzido para um freelance. O objetivo era produzir uma página inicial pa
 https://www.npmjs.com/package/http-server
 
 ## Comandos
-Instala as dependências para rodar o projeto.
+Instala servidor HTTP.
 ```
-npm init
+npm install http-server
 ```
 
 Iniciar o servidor HTTP.

@@ -1,0 +1,73 @@
+/* =========================================
+   FONTES
+   ========================================= */
+@font-face {
+    font-family: tw_cen_mt_bold;
+    src: url(/fonts/tw-cen-mt-condensed-extra-bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: tw_cen_mt_condensed;
+    src: url(/fonts/TCCB____.TTF);
+}
+
+@font-face {
+    font-family: swis_lt_bt;
+    src: url(/fonts/tt0001m_.ttf);
+}
+
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body.paginas {
+	margin-bottom: 550px;
+}
+
+/* =========================================
+   IMPORTS BASICOS
+   ========================================= */
+@import 'colors';
+@import 'include-media';
+@import 'xpcassio_logo';
+
+/* =========================================
+   MODIFICANDO O BOOTSTRAP
+   ========================================= */
+@import 'navbar';
+@import 'btn';
+@import 'footer-home';
+@import 'footer';
+@import 'modal';
+
+/* =========================================
+   PAGINAS
+   ========================================= */
+@import 'home';
+@import 'institucional';
+@import 'empreendimentos';
+@import 'empreendimento';
+@import 'noticias';
+@import 'noticia';
+@import 'contato';
+
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+@include media(">phone", ">=tablet") {
+	body.paginas {
+		margin-bottom: 290px;
+	}
+}
+
+@include media(">=desktop") {
+    body {
+        font-size: 16px;
+    }
+    
+	body.paginas {
+		margin-bottom: 255px;
+	}
+}

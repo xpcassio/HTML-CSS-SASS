@@ -1,0 +1,4 @@
+1) fazer uma logo que fique bem em uma resolução 320;
+	# reduzir o espaço em pranco ao redor da imagem o maximo possivel.
+
+2)

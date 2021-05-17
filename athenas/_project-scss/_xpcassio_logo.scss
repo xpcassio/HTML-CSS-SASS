@@ -1,0 +1,18 @@
+/* =============================================
+   | DEPENDENCIAS								|
+   ============================================= */
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:700');
+
+.logo-xpcassio {
+	background-color: rgba(125, 125, 125, 0.6);
+	color: $white;
+	cursor: pointer;
+	font-family: 'Zilla Slab', serif;
+	padding: 0 5px;
+
+	&:hover,&:focus {
+		background-color: rgba(125, 125, 125, 0.8);
+		color: $white;
+		text-decoration: none;
+	}
+}

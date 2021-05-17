@@ -1,0 +1,39 @@
+.a-contato {
+	.svg {
+		width: 42px;
+		float: left;
+		margin-right: 10px;
+		fill: $athenas_laranja;
+	}
+
+	span {
+		float: left;
+		margin-top: 9px;
+		font-size: 24px;
+		color: $gray;
+		font-family: tw_cen_mt_bold;
+	}
+}
+
+.div-contato {
+	margin-bottom: 20px;
+}
+
+.select-contato {
+	.btn-athenas {
+		border: 1px solid $athenas_laranja;
+	}
+}
+
+.endereco_athenas {
+	i {
+		width: 15px;
+		margin-right: 10px;
+	}
+}
+
+#mapa {
+	width: 100%;
+	height: 250px;
+	background-color: $athenas_laranja;
+}

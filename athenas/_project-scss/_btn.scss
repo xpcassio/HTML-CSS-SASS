@@ -1,0 +1,19 @@
+.btn {
+	border-radius: 0;
+}
+
+.btn-athenas {
+	background-color: $athenas_laranja;
+	color: $white;
+
+	&:focus,&:hover {
+		background-color: darken($athenas_laranja, 5%);
+		color: $white;
+	}
+}
+
+.btn-group {
+	.btn {
+		border-radius: 0;
+	}
+}

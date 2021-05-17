@@ -1,0 +1,65 @@
+.container-empreendimento {
+	margin-top: 100px;
+
+	.img-empreendimento {
+		margin-bottom: 30px;
+	}
+
+	.h1_emp {
+		margin-top: 0;
+		margin-bottom: 5px;
+		font-family: tw_cen_mt_bold;
+		font-size: 38px;
+	}
+
+	.p_emp {
+		margin-bottom: 30px;
+	}
+
+	.well-emp {
+		padding-top: 60px;
+		padding-bottom: 60px;
+		margin-bottom: 30px;
+		background-color: $athenas_laranja;
+		background-image: url(/img/logo_background/bk_esquerdo_alt25.png);
+		background-position: center left;
+		background-repeat:  no-repeat;
+		color: $white;
+	}
+
+	.div_barra {
+		margin-bottom: 15px;
+	}
+
+	.div_imagens {
+		img {
+			width: 50px;
+			margin-bottom: 15px;
+			margin-right: 10px;
+		}
+	}
+}
+
+.progress-athenas {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb153+0,ff983a+50,f37e20+100 */
+	background: rgb(255,177,83); /* Old browsers */
+	background: -moz-linear-gradient(left, rgba(255,177,83,1) 0%, rgba(255,152,58,1) 50%, rgba(243,126,32,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, rgba(255,177,83,1) 0%,rgba(255,152,58,1) 50%,rgba(243,126,32,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, rgba(255,177,83,1) 0%,rgba(255,152,58,1) 50%,rgba(243,126,32,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb153', endColorstr='#f37e20',GradientType=1 ); /* IE6-9 */
+}
+
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+@include media(">phone", ">=tablet") {
+	.container-empreendimento {
+		margin-top: 150px;
+
+		.div_imagens {
+			img {
+				width: 80px;
+			}
+		}
+	}
+}

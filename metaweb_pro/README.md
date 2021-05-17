@@ -16,9 +16,9 @@ Site produzido para um dos meus empregos CLT. O objetivo era produzir uma págin
 https://www.npmjs.com/package/http-server
 
 ## Comandos
-Instala as dependências para rodar o projeto.
+Instala servidor HTTP.
 ```
-npm init
+npm install http-server
 ```
 
 Iniciar o servidor HTTP.
@@ -28,4 +28,4 @@ npx http-server -p 8080
 
 ## Observações
 + Foi produzido inicialmente como um projeto PHP, logo no começo da minha carreira. Então eu modifiquei para ser apenas HTML/CSS/SCSS e deixei algumas coisas do PHP apenas por memoria afetiva.
-+ Projeto completo se encontra em _files/so_nerds.7z
++ Projeto completo se encontra em _files/metaweb_pro.7z

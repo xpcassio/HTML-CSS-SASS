@@ -1,0 +1,131 @@
+.half_image {
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-size:  cover;
+	background-color: #999;
+
+	height: 250px;
+	position: relative;
+	margin-bottom: 30px;
+
+	.div-texto {
+		margin-top: 100px;
+
+		h1 {
+			font-size: 38px;
+			text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.8);
+		}
+
+		h1,h2,h3,h4,h5,p {
+			color: $white;
+		}
+	}
+}
+
+.row-split {
+	h1 {
+		color: $athenas_gray;
+		margin-bottom: 30px;
+		font-family: tw_cen_mt_bold;
+	}
+}
+
+.middle_image {
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-size:  cover;
+	background-color: #999;
+
+	height: 400px;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	.transparencia {
+		height: 100%;
+		width: 100%;
+		padding: 10px 20px;
+		background-color: rgba(255, 255, 255, 0.6);
+
+		h3 {
+			color: $athenas_gray;
+			font-family: tw_cen_mt_condensed;
+
+			i {
+				color: $athenas_laranja;
+				margin-right: 10px;
+				font-size: 19px;
+			}
+		}
+	}
+}
+
+.bk_direito {
+	background-image: url(/img/logo_background/bk_direito10.png);
+	background-position: center right;
+	background-repeat:  no-repeat;
+	background-size: 190px;
+	min-height: 350px;
+}
+
+.bk_esquerdo {
+	background-image: url(/img/logo_background/bk_esquerdo10.png);
+	background-position: top left;
+	background-repeat:  no-repeat;
+	background-size: 240px;
+	min-height: 350px;
+}
+
+.owl-carousel {
+	blockquote {
+		border-left: 0
+	}
+}
+
+/* =========================================
+   RESPONSIVIDADE
+   ========================================= */
+@include media(">phone", ">=tablet") {
+	.half_image {
+		height: 400px;
+		margin-bottom: 50px;
+
+		.div-texto {
+			margin-top: 180px;
+		}
+	}
+
+	.middle_image {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		height: 470px;
+
+		.transparencia {
+			width: 40%;
+		}
+	}
+
+	.split-depoimentos {
+		margin-top: 50px;
+	}
+
+	.bk_direito {
+		background-size: 210px;
+	}
+
+	.bk_esquerdo {
+		min-height: 290px;
+		background-size: 200px;
+	}
+}
+
+@include media(">=1200px") {
+	.middle_image {
+		height: 410px !important;
+
+		.transparencia {
+			padding: 10px 40px !important;
+			width: 35% !important;
+		}
+	}
+}

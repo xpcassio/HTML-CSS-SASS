@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Athenas Contatos</title>
+
+	<meta charset="iso-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Css -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="paginas">
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top <?=$tmp_navbar?>">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">
+					<img src="/img/logos/logo_mob.png" class="hidden-sm hidden-md hidden-lg">
+					<img src="/img/logos/logo_comp.png" class="hidden-xs">
+					<!-- <img src="/img/logos/logo_mob_alt.png" class="hidden-sm hidden-md hidden-lg">
+					<img src="/img/logos/logo_comp_alt.png" class="hidden-xs"> -->
+				</a>
+				<a href="#" target="_blank" class="link-social hidden-sm hidden-md hidden-lg"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a>
+				<a href="#" target="_blank" class="link-social hidden-sm hidden-md hidden-lg"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class=""><a href="/institucional">INSTITUCIONAL</a></li>
+					<li class=""><a href="/empreendimentos">EMPREENDIMENTOS</a></li>
+					<li class=""><a href="/noticias">NOTÍCIAS</a></li>
+					<li class="active"><a href="/contatos">CONTATOS</a></li>
+					<li class=""><a href="#" class="hidden-xs" style="padding-right: 5px;"><i class="fa fa-lg fa-instagram" aria-hidden="true"></i></a></li>
+					<li class=""><a href="#" class="hidden-xs" style="padding-left: 5px;"><i class="fa fa-lg fa-facebook-official" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="half_image" style="background-image: url(/img/contatos/FALECONOSCO.jpg);">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3 div-texto text-center">
+					<h1>CONTATOS</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6">
+				<!-- DIV MENSAGEM -->
+				<div class="row">
+					<div class="col-xs-12" style="margin-bottom: 20px;">
+						<a href="javascript:;" class="a-contato" data-div="#div-contato-4">
+							<?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR."img".DIRECTORY_SEPARATOR."contatos".DIRECTORY_SEPARATOR."close-envelope.svg"); ?>
+							<span>Mensagem</span>
+						</a>
+					</div>
+					<div class="col-xs-12 div-contato" id="div-contato-4">
+						<p>Possui um empreendimento com a gente e gostaria de alguma informação especifica? Escolha <strong>contato tecnico</strong>. Pensando em ser nosso cliente? Escolha <strong>contato comercial</strong>.</p>
+
+						<form novalidate="">
+							<div class="btn-group btn-group-lg btn-group-justified select-contato" role="group" aria-label="Justified button group" style="margin-bottom: 15px;">
+								<a href="javascript:;" class="btn btn-athenas" role="button" data-tipo="pessoal">Tecnico</a>
+								<a href="javascript:;" class="btn btn-default" role="button" data-tipo="tecnico">Comercial</a>
+							</div>
+							<!-- TECNICO/COMERCIAL -->
+							<div class="form-group form-group-emp">
+								<label>Qual empreendimento você gostaria de informações?</label>
+								<select class="form-control input-lg">
+									<option value="empreendimento1">Empreendimento 1</option>
+									<option value="empreendimento2">Empreendimento 2</option>
+									<option value="empreendimento3">Empreendimento 3</option>
+								</select>
+							</div>
+							<div class="form-group form-group-ap">
+								<label>Possui apartamento no mesmo?</label>
+								<select class="form-control input-lg">
+									<option value="">Não</option>
+									<option value="">Cobertura</option>
+									<option value="101">Apt. 101</option>
+									<option value="102">Apt. 102</option>
+									<option value="103">Apt. 103</option>
+								</select>
+							</div>
+							<!-- PESSOAL/TECNICO -->
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="" placeholder="Nome Completo">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="" placeholder="Telefone/Celular">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" id="" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control input-lg" rows="4" placeholder="Descreva sua duvida ou sugestão"></textarea>
+							</div>
+
+							<input type="hidden" name="tipo" value="pessoal">
+							<a class="btn btn-block btn-lg btn-default" href="#" role="button">Enviar Mensagem</a>
+						</form>
+					</div>
+				</div>
+				<!-- DIV TRABALHE CONOSCO -->
+				<div class="row">
+					<div class="col-xs-12" style="margin-bottom: 20px;">
+						<a href="javascript:;" class="a-contato" data-div="#div-contato-3">
+							<?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR."img".DIRECTORY_SEPARATOR."contatos".DIRECTORY_SEPARATOR."engineer.svg"); ?>
+							<span>Trabalhe Conosco</span>
+						</a>
+					</div>
+					<div class="col-xs-12 div-contato" id="div-contato-3" style="display: none;">
+						<p>Envie email para <strong>contato@athenas.eng.br</strong> com o seu curriculo atualizado, carta de recomendação e uma breve descrição de suas habilidades</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6">
+				<div class="row">
+					<div class="col-xs-12" style="margin-bottom: 20px;">
+						<a href="javascript:;" class="a-contato" data-div="#div-contato-2">
+							<?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR."img".DIRECTORY_SEPARATOR."contatos".DIRECTORY_SEPARATOR."map-pin-marked.svg"); ?>
+							<span>Endereço e Contatos</span>
+						</a>
+					</div>
+					<div class="col-xs-12 div-contato" id="div-contato-2" style="display: none;">
+						<address class="endereco_athenas">
+							<strong>Athenas Engenharia</strong><br>
+							1355 Market Street, Suite 900<br>
+							San Francisco, CA 94103<br>
+							<i class="fa fa-phone" aria-hidden="true"></i> <a href="">(00) 0000-0000</a><br>
+							<i class="fa fa-phone" aria-hidden="true"></i> <a href="">(00) 0000-0000</a><br>
+							<i class="fa fa-envelope" aria-hidden="true"></i> <a href="">contato@athenas.com.br</a>
+						</address>
+						<div id="mapa"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12" style="margin-bottom: 20px;">
+						<a href="javascript:;" class="a-contato" data-div="#div-contato-1">
+							<?php echo file_get_contents($_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR."img".DIRECTORY_SEPARATOR."contatos".DIRECTORY_SEPARATOR."wall-clock.svg"); ?>
+							<span>Horário de Atendimento</span>
+						</a>
+					</div>
+					<div class="col-xs-12 div-contato" id="div-contato-1" style="display: none;">
+						<p>Apartamento Decorado & Avanço de Obra</p>
+						<p><strong>SEGUNDA A SEXTA</strong><br>08h00 - 18H00</p>
+						<p><strong>SABADO</strong><br>09h00 - 13h00</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="sub">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-3 logo">
+						<img src="/img/logos/logo_comp_alt.png" alt="">
+					</div>
+
+					<div class="col-xs-12 col-sm-9 col-lg-7">
+						<div class="icon-style" style="display: block; width: 200px; margin: 0 auto 20px auto;">
+							<div style="display: inline-block; width: 50px; text-align: right;">
+								<i class="fa fa-volume-control-phone" aria-hidden="true" style="color: #ffffff; font-size: 35px; position: relative; bottom: 10px; margin-right: 10px;"></i>
+							</div>
+							<div style="display: inline-block; text-align: left;">
+								<p style="color: #ffffff; font-size: 18px; margin-bottom: 5px;">91. 4008-0000</p>
+								<h3 style="color: #e3e4e6; font-family: tw_cen_mt_bold; margin-top: 0;">TELEFONE</h3>
+							</div>
+						</div>
+						<div class="icon-style" style="display: block; width: 200px; margin: 0 auto 20px auto;">
+							<div style="display: inline-block; width: 50px; text-align: right;">
+								<i class="fa fa-whatsapp" aria-hidden="true" style="color: #ffffff; font-size: 35px; position: relative; bottom: 10px; margin-right: 10px;"></i>
+							</div>
+							<div style="display: inline-block; text-align: left;">
+								<p style="color: #ffffff; font-size: 18px; margin-bottom: 5px;">91. 99999-9999</p>
+								<h3 style="color: #e3e4e6; font-family: tw_cen_mt_bold; margin-top: 0;">WHATSAPP</h3>
+							</div>
+						</div>
+						<div class="icon-style" style="display: block; width: 200px; margin: 0 auto 20px auto;">
+							<div style="display: inline-block; width: 50px; text-align: right;">
+								<i class="fa fa-building-o" aria-hidden="true" style="color: #ffffff; font-size: 35px; position: relative; bottom: 10px; margin-right: 10px;"></i>
+							</div>
+							<div style="display: inline-block; text-align: left;">
+								<p style="color: #ffffff; font-size: 18px; margin-bottom: 5px;">LIGAMOS</p>
+								<h3 style="color: #e3e4e6; font-family: tw_cen_mt_bold; margin-top: 0;">PARA VOCÊ</h3>
+							</div>
+						</div>
+					</div>
+					<!-- Desktop -->
+					<div class="col-lg-2 hidden-xs hidden-sm dev">
+						Desenvolvido por: <a href="http://xpcassio.com" target="_blank" class="logo-xpcassio">xp://cass.io</a>
+					</div>
+
+					<div class="col-xs-12 copy">
+						Todos os direitos reservados. Athenas Contruções e Incorporações. Copyright © 2017 
+					</div>
+
+					<!-- Mobile/Tablet -->
+					<div class="col-xs-12 hidden-md hidden-lg dev">
+						Desenvolvido por: <a href="http://xpcassio.com" target="_blank" class="logo-xpcassio">xp://cass.io</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Js -->
+	<script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/paginas/contatos.js"></script>
+</body>
+</html>
