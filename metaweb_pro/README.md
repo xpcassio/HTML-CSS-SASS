@@ -1,4 +1,4 @@
-SO Nerds
+Metaweb PRO
 ========
 Site produzido para um dos meus empregos CLT. O objetivo era produzir uma página simples para cadastro de afiliados.
 

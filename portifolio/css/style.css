@@ -1,0 +1,45 @@
+/* FONTS  ============================================= */
+@import "https://fonts.googleapis.com/css?family=Archivo+Black";
+/* GERAIS  ============================================= */
+/* FIX BOOTSTRAP  ============================================= */
+footer { text-align: center; }
+footer p { margin: 30px 0 20px 0; }
+footer p a { text-decoration: none; }
+footer p a:hover, footer p a:focus { text-decoration: none; }
+footer p a:before { content: '<'; margin-right: 3px; }
+footer p a:after { content: '>'; margin-left: 3px; }
+
+/* PAGINAS  ============================================= */
+.jumbotron-one { background-color: #262626; color: white; margin-bottom: 0; }
+.jumbotron-one img { width: 160px; height: 160px; }
+.jumbotron-one .nome-geral { font-family: 'Archivo Black', sans-serif; font-size: 36px; }
+.jumbotron-one .style-hr { border-width: 5px; width: 200px; }
+.jumbotron-one .social-linkedin, .jumbotron-one .social-facebook, .jumbotron-one .social-phone { color: white; margin-left: 10px; margin-right: 10px; }
+.jumbotron-one .social-linkedin span, .jumbotron-one .social-facebook span, .jumbotron-one .social-phone span { font-size: 16px; position: relative; bottom: 10px; left: 5px; font-weight: 500; }
+.jumbotron-one .social-phone:hover, .jumbotron-one .social-phone:focus { text-decoration: none; }
+.jumbotron-one .social-linkedin:focus, .jumbotron-one .social-linkedin:hover { color: #007bb6; }
+.jumbotron-one .social-facebook:focus, .jumbotron-one .social-facebook:hover { color: #3b5998; }
+
+.jumbotron-two { background-color: #333333; margin-bottom: 40px; color: white; padding-top: 20px; padding-bottom: 20px; }
+.jumbotron-two .link-email { text-decoration: underline; }
+
+.div-segunda { margin-top: 40px; }
+
+.div-terceira { margin-top: 40px; }
+
+.new-header hr { border-width: 5px; width: 100px; float: left; margin-top: 0; margin-bottom: 15px; border-color: #666666; }
+.new-header h2 { float: left; margin-top: 0; margin-bottom: 20px; width: 100%; color: #262626; }
+
+.new-educacao h4 { margin-top: 0; margin-bottom: 5px; }
+
+.dl-experiencias dt { text-align: left; }
+
+.div-competencia i { float: left; margin-right: 15px; }
+.div-competencia .progress { border-radius: 10px; margin-top: 5px; }
+.div-competencia .progress-bar-dark { background-color: #333333; }
+
+/* RESPONSIVIDADE  ============================================= */
+@media (min-width: 768px) { .jumbotron img { width: 200px; height: 200px; }
+  .jumbotron .nome-geral { margin-top: 0; font-size: 50px; } }
+@media (min-device-width: 970px) { .jumbotron .nome-geral { margin-top: 30px; font-size: 55px; }
+  .div-segunda { margin-top: 0; } }

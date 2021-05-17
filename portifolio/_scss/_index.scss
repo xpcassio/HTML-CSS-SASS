@@ -1,0 +1,119 @@
+.jumbotron-one {
+	background-color: $new_preto;
+	color: white;
+	margin-bottom: 0;
+
+	img {
+		width: 160px;
+		height: 160px;
+	}
+
+	.nome-geral {
+		font-family: 'Archivo Black', sans-serif;
+		font-size: 36px;
+	}
+
+	.style-hr {
+		border-width: 5px;
+	    width: 200px;
+	}
+
+	.social-linkedin,.social-facebook,.social-phone {
+		color: white;
+		margin-left: 10px;
+		margin-right: 10px;
+
+		span {
+			font-size: 16px;
+			position: relative;
+			bottom: 10px;
+			left: 5px;
+			font-weight: 500;
+		}
+	}
+
+	.social-phone:hover,.social-phone:focus {
+		text-decoration: none;
+	}
+
+	.social-linkedin:focus,.social-linkedin:hover {
+		color: $azul_linkdin;
+	}
+
+	.social-facebook:focus,.social-facebook:hover {
+		color: $azul_facebook;
+	}
+}
+
+.jumbotron-two {
+	background-color: lighten($new_preto, 5%);
+	margin-bottom: 40px;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	.link-email {
+		text-decoration: underline;
+	}
+}
+
+.div-segunda {
+	margin-top: 40px;
+}
+
+.div-terceira {
+	margin-top: 40px;
+}
+
+.new-header {
+	hr {
+		border-width: 5px;
+		width: 100px;
+		float: left;
+		margin-top: 0;
+		margin-bottom: 15px;
+		border-color: lighten($new_preto, 25%);
+	}
+
+	h2 {
+		float: left;
+		margin-top: 0;
+		margin-bottom: 20px;
+		width: 100%;
+		color: $new_preto;
+	}
+}
+
+.new-educacao {
+	h4 {
+		margin-top:0;
+		margin-bottom: 5px;
+	}
+}
+
+.dl-experiencias {
+	dt {
+		text-align: left;
+	}
+}
+
+.div-competencia {
+	i {
+		float: left;
+		margin-right: 15px;
+	}
+
+	.progress {
+		border-radius: 10px;
+		margin-top: 5px;
+	}
+
+	.progress-bar-dark {
+		background-color: lighten($new_preto, 5%);
+	}
+}
+
+/* RESPONSIVIDADE 
+   ============================================= */
+@import 'index-tablet';
+@import 'index-desktop';
