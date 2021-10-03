@@ -1,7 +1,7 @@
-Webdesign
+HTML5 / CSS / SASS
 =========
 
-Coleção de projetos com foque no HTML/CSS/SCSS.
+Coleção de projetos com foque no HTML/CSS/SASS.
 
 Siglas
 ======
